@@ -1,0 +1,18 @@
+body {
+    background-image: url("./bilder/Frank.png");
+}
+h1 {
+    color: white;
+    font-size: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    color: white;
+    font-size:  18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
