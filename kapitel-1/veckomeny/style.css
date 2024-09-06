@@ -1,0 +1,28 @@
+body {
+    background-color: #fff9c0;
+}
+table {
+    background-color: rgb(103, 228, 138);
+    width: 1264px;
+}
+caption {
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffff;
+    background-image: url(./bilder/image\ copy\ 5.png);
+}
+tr {
+
+}
+th {
+    padding: 20px;
+    font-size: 30px;
+}
+td {
+    background-color: #ffff;
+    padding: 10px;
+}
+img {
+    width: 235px;
+}
