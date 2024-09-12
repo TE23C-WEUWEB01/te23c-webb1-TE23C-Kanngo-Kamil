@@ -1,0 +1,12 @@
+body {
+    background-image: url(./bilder/image.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: -500px 0;
+}
+h1 {
+    color: white;
+    font-size: 100px;
+    font-family: Helvetica, sans-serif;
+    width: 500px;
+}
