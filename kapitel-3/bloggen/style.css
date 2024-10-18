@@ -10,23 +10,42 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 body {
-
+    background-color: #6ACFCF;
 }
 div.sidan {
-    background-color: #2c693b;
+    background-color: #1A73C4;
+    background-image: url(./bilder/55578a07a30ea997fc72cbdfb65f9c16.1000x1000x1.png);
+    margin: auto;
+    background-size: contain;
 }
 div.inlägg {
-    background-color: #bf6b0b;
+    background-color: #6ACFCF;
+    box-shadow: 0 0 50px white;
+    width: 480px;
+    margin: auto;
+    padding: 50px;
 }
 h1 {
-
+    color: #F6F9F6;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px #EA5639;
 }
 h2 {
-
+    color: #F6F9F6;
+    text-shadow: 1px 1px #ea57399d;
+    margin-top: 10px;
+    font-family: sans-serif;
 }
 p {
-
+    color: #F6F9F6;
+    font-family: sans-serif;
+    text-shadow: 1px 1px #ea57399d;
 }
 img {
-
+    width: 350px;
+    padding: 7px;
+    background-color: #efe55b;
+    margin: auto;
+    box-shadow: 0 0 10px white;
 }
