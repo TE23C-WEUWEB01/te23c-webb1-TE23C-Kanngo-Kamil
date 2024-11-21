@@ -11,6 +11,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 body {
     background-color: rgb(0, 0, 0);
+    background-image: url(./bilder/stars.png);
 }
 .kontainer {
     width: 1200px;
@@ -42,14 +43,19 @@ p {
     margin-bottom: 20px;
     color: white;
 }
+.int {
+    width: 500px;
+    margin-left: 305px;
+    
+}
 .intressen {
     text-align: center;
 }
 .kolumner {
     background-color: #6d5575;
-    margin-left: auto;
     display: flex;
     gap: 40px;
+    padding: 5px;
 }
 .bilder {
     display: flex;
@@ -61,7 +67,7 @@ p {
     margin-left: auto;
 }
 .bildtext {
-    color: black;
+    color: color;
     padding-top: 60px;
 }
 .bild {
@@ -70,4 +76,7 @@ p {
     border-radius: 5px;
     margin-top: 60px;
     margin-left: 20px;
+}
+a {
+    color: #fcf950;
 }
