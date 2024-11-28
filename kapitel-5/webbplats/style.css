@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layoutens utseende */
+body {
+    background-color: black;
+}
+.kontainer {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: #240046;
+}
+
+/* Menyns utseende */
+.kontainer ul {
+    display: flex;
+    justify-content: space-between;
+}
+.kontainer ul li {
+    list-style-type: none;
+}
+.kontainer ul a {
+    text-decoration: none;
+    color: white;
+    background-color: #F19C79;
+    padding: 10px;
+    width: 140px;
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 3px 3px 0 #999;
+}
+.kontainer ul a:hover {
+    background-color: #A44A3F;
+}
+
+/* Innehållet */
+.kontainer h1 {
+    font-family: "Shrikhand", serif;
+    color: #883e34;
+    font-size: 80px;
+}
+.kontainer figure {
+    background-color: #fff;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.kontainer figure img {
+    width: 100%;
+}
+.kontainer figure figcaption {
+    margin-top: 20px;
+}
+.kontainer p {
+    margin-bottom: 15px;
+    color: white;
+}
+.kontainer .tack {
+    font-style: italic;
+}
+.kontainer .tack a {
+    text-decoration: none;
+    color: #c8c51e;
+}
