@@ -25,58 +25,80 @@ Typsnitt = Modak
 
 /* Sidlayouten */
 body {
-    background: url(https://karye.gitlab.io/weuweb01/images/image-134.jpg);
     background-repeat: no-repeat;
-    background-color: #FBF7F1;
+    background-color: #F3F0DD;
+    background-image: url(./bilder/image-134.jpg);   
+    background-size: 1300px; 
 }
 .kontainer {
     width: 1100px;
     margin: auto;
     font-weight: 400;
     font-style: normal;
-    color: black;
 }
 
 /* Meny/Sidhuvud */
 .meny {
+    width: 820px;
+    padding-top: 10px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
-    background-image: url(./bilder/image-134.jpg);
 }
 .meny a {
     text-decoration: none;
     color: white;
-    padding: 20px 10px;
+    padding: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
 }
 .meny img {
-    width: 180px;
+    width: 130px;
+    margin: auto;
 }
 
 /* Sidinnehållet */
+.sida {
+    background-color: #F9F8F1;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 900px;
+}
+
 .sida h1 {
-    font-size: 45px;
-    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.sida p {
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
 }
 .rutor {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
 }
 .produkt {
-    background-color: #F9F8F1;
-    text-align: center;
-    border-radius: 10px;
-    height: 150px;
-    cursor: pointer;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .produkt img {
-    width: 300px;
+    width: 205px;
 }
-.produkt:hover {
-    transition-duration: 500ms;
-    height: 400px;
-}
-    .produkt p {
-    font-size: 25px;
+.produkt p {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
