@@ -22,3 +22,19 @@
     transform: translate(-50%, -50%);
     border: none;
 }
+.wanderer main {
+    display: grid;
+    align-items: center;
+}
+.venus h1 {
+    color: #ffd588;
+}
+.venus header nav a {
+    color: #ffd588;
+}
+.venus header nav a:hover {
+    border-bottom: 2px solid #ffd588;
+}
+.venus header nav a.active {
+    border-bottom: 3px solid #ffd588;
+}
